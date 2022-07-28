@@ -1,0 +1,134 @@
+.img-cont{
+  display: flex;
+  width: 100%;
+}
+.img img{
+  width: 100%;
+  height: 200px;
+}
+.dsc-cont{
+ width: 100%;
+ margin-left: 20px;
+}
+table { 
+    width: 100%;
+    font-size:1rem;
+    background-color: rgb(240, 110, 132);
+}
+
+td,th {
+    text-align: left;
+}
+
+tr {
+  height: 50px;
+}
+
+.details{
+  background-color: rgb(240, 110, 132);
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 40px;
+  transform: rotate(180deg);
+  animation-name: spin;
+  animation-duration: 600ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  color: rgb(56, 223, 223);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+.Quality{
+  display: flex;
+  gap: 5px;
+  background-color: rgb(199, 56, 80);
+}
+.G {
+  background-color: rgb(84, 226, 55);
+}
+
+.C {
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(199, 56, 80);
+}
+
+.search-cont{
+  display: flex;
+flex-direction: row;
+background-color: rgb(240, 110, 132);
+height: 30px;
+padding: 10px;
+}
+
+.search {
+  margin-left:auto ;
+}
+
+.card{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+}
+.card .k:nth-child(even){
+  background-color: rgb(224, 69, 108);
+}
+.card .k:nth-child(odd){
+  background-color: rgb(161, 43, 59);
+}
+.country-item {
+  text-decoration: none;
+}
+
+.k {
+  border:1px solid rgb(199, 56, 80);
+  text-decoration: none;
+  color: white
+}
+.stats{
+  color: white;
+  background-color:rgb(161, 43, 59);
+}
+.country-box{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+}
+
+.back {
+  font-size: 1.5rem;
+}
+.utilBar{
+  display: flex;
+padding: 10px;
+background-color: rgb(199, 56, 80);
+}
+
+.MicGear{
+  margin-left: auto;
+  justify-content: space-evenly;
+}
+
+.mic {
+  margin-right: 40px;
+}
