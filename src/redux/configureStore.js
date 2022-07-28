@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit';
-import countries from './mainpage'
+import countries from './mainpage';
 import details from './details';
 
 const store = configureStore({
