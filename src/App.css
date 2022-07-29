@@ -161,7 +161,7 @@ tr:nth-child(even) {
 }
 
 @media only screen and (max-width: 400px) {
-  .Search-spce{
+  .Search-spce {
     width: 30%;
     margin-left: 5px;
     border-radius: 5px;
