@@ -1,11 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import countries from './mainpage';
-import details from './details';
+import count from './mainpage';
+import detail from './details';
 
 const store = configureStore({
   reducer: {
-    countries,
-    details,
+    countries: count,
+    details: detail,
   },
 });
 export default store;
