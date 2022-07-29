@@ -38,6 +38,7 @@ export const countries = createSlice({
         population: key.population,
         region: key.region,
         flag: key.flags.svg,
+        coat: key.coatOfArms.svg,
       }));
       const thestate = state;
       thestate.isLoading = false;

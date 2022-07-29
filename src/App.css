@@ -16,7 +16,7 @@
 table {
   width: 100%;
   font-size: 1rem;
-  background-color: rgb(240, 110, 132);
+  border-collapse: collapse;
 }
 
 td,
@@ -94,22 +94,36 @@ tr:nth-child(even) {
   grid-auto-rows: minmax(100px, auto);
 }
 
-.card .k:nth-child(even) {
+.link:nth-child(even) {
   background-color: rgb(224, 69, 108);
 }
 
-.k .card:nth-child(odd) {
+.link:nth-child(odd) {
   background-color: rgb(161, 43, 59);
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border: 1px solid rgb(199, 56, 80);
+  text-decoration: none;
+  color: white;
+}
+
+.one {
+  margin-left: auto;
+}
+
+.two {
+  margin-top: auto;
+  margin-left: auto;
+  text-align: right;
+  font-weight: 500;
 }
 
 .country-item {
   text-decoration: none;
-}
-
-.k {
-  border: 1px solid rgb(199, 56, 80);
-  text-decoration: none;
-  color: white;
 }
 
 .stats {
@@ -124,6 +138,7 @@ tr:nth-child(even) {
   justify-content: center;
   align-items: center;
   font-size: 60px;
+  background-color: rgb(199, 56, 80);
 }
 
 .back {
