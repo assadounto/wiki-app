@@ -30,7 +30,7 @@ const Mainpage = () => {
       <div className="search-cont">
         <FontAwesomeIcon icon={faBars} color="white" size="xl" />
         <div className="search">
-          <input type="text" value={search} onChange={handle} placeholder="Search country.." />
+          <input type="text" value={search} onChange={handle} placeholder="Search country.." className="Search-spce" />
 
           Continent:
           <select value={select} onChange={handleFilter}>
