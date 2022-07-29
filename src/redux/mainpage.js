@@ -10,10 +10,9 @@ const initialState = {
 export const getCountries = createAsyncThunk(
   'countries/getCountries',
   async () => {
-    const  {data } = await countriesService.getAll();
-    console.log(data)
-    return data;
+    const { data } = await countriesService.getAll();
 
+    return data;
   },
 );
 
@@ -25,7 +24,6 @@ export const countries = createSlice({
       const newState = state.items.map((mission) => {
         if (mission.missionId !== action.payload) return mission;
         return { ...mission, joined: false };
-
       });
       const thestate = state;
       thestate.items = newState;
@@ -39,13 +37,13 @@ export const countries = createSlice({
         lon: key.latlng[1],
         population: key.population,
         region: key.region,
-        flag:key.flags.svg,
+        flag: key.flags.svg,
+        coat: key.coatOfArms.svg,
       }));
       const thestate = state;
       thestate.isLoading = false;
       thestate.isFailed = false;
       thestate.items = countries;
-      console.log(thestate)
     },
     [getCountries.pending]: (state) => { const thestate = state; thestate.isLoading = true; },
     [getCountries.rejected]: (state) => { const thestate = state; thestate.isFailed = true; },
