@@ -4,11 +4,12 @@
 
 This is a Metrics app that fetches metrics data (air-pollution) of countries in the world 
 
-### Live Demo Links
-[Herokuapp]()
-[Netlify]()
+### Live Demo Link
+[View Site](https://metric-app-rich.netlify.app/)
 
-<!-- ![screenshot](./desktop.png) -->
+![Main Page](./app.png)
+![Detials Page](./app2.png)
+
 
 ## Built With
 
@@ -28,7 +29,7 @@ To get a local copy up and running follow these simple example steps.
 - Use React-Redux
 
 ## Setup
-- ````1git clone git@github.com:assadounto/wiki-app.git````
+- ````git clone git@github.com:assadounto/wiki-app.git````
 -  ````cd wiki-app ````
 -  ````npm install ````
 -  ````npm start ````
