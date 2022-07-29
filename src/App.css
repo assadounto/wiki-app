@@ -159,3 +159,12 @@ tr:nth-child(even) {
 .mic {
   margin-right: 40px;
 }
+
+@media only screen and (max-width: 600px) {
+  .Search-spce{
+    width: 30%;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+}
