@@ -65,7 +65,7 @@ const Country = () => {
                   <tbody>
                     <tr>
                       <th>Air Pollutant</th>
-                      <th>Concentration</th>
+                      <th>Concentration in μg/m3</th>
                     </tr>
 
                     <tr>
@@ -92,6 +92,7 @@ const Country = () => {
                 </table>
                 <div>
                   Air Quality Index is
+                  {' '}
                   {key.AirQuality}
                 </div>
 
