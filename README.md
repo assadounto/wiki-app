@@ -79,7 +79,7 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you liked this project!
 
 ## Acknowledgments
-
+- Original design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 - Microverse 
 - Coding Partners
 - Code Reviewers
